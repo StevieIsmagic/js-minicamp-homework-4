@@ -5,11 +5,12 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Callback Functions - a function that is passed into another function as an argument is a callback.
-	* Closure - function(A) returns another function(B); function(B), even when invoked in another ther part of the code (outside of function(A)), will remember its original parent scope (A).
-	* arguments array - argument object holds an array of the arguments passed to the function when it was called.
-	* recursion - when a function calls itself 
-	* prototype - the object from which all other objects of the same class inherit their properties and methods.
-	* constructors - establish the prototypes that allow us to then create an indefinite number of objects of the same type.
+	* Closure - function(A) returns another function(B); function(B), even when invoked in another part of the code (outside of function(A)), will remember its original parent scope (A).
+	* Arguments Array - argument object holds an array of the arguments passed to the function when it was called.
+	* Recursion - when a function calls itself 
+	* Prototype - the object from which all other objects of the same class inherit their properties and methods.
+	* Constructors - establish the prototypes that allow us to then create an indefinite number of objects of the same type.
+	* Falsey - false, null, undefined, NaN, 0 & -0, , empty string '' & "",
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
