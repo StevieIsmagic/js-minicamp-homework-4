@@ -120,13 +120,10 @@ function cacheFunction(cb) {
 	//use closure to create a cache for the cb function
 	//the function that you return should accept a 
 	//single argument and invoke cb with that argument
-	return function(arg){
-		cb(arg);
-	}
+	
 	//when the function you return is invoked with 
 	//an argument it should save that argument and its result
-	var save = callBack
-	if
+	
 	//when the function you return is called again 
 	//with an argument that it has seen before it should not call cb
 	//but should instead directly returned the previous result
